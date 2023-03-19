@@ -8,10 +8,10 @@ import styles from './app.module.css';
 class App extends Component {
   state = {
     contacts: [
-      { id: 'exampleID-1', name: 'John Doe', number: '111-111-1111' },
-      { id: 'exampleID-2', name: 'Jane Smith', number: '222-222-2222' },
-      { id: 'exampleID-3', name: 'xxx', number: '333-333-3333' },
-    ],
+      {id: 'id-1', name: 'Rosie Simpson', number: '459-12-56'},
+      {id: 'id-2', name: 'Hermione Kline', number: '443-89-12'},
+      {id: 'id-3', name: 'Eden Clements', number: '645-17-79'},
+      {id: 'id-4', name: 'Annie Copeland', number: '227-91-26'},
     filter: '',
   };
 
